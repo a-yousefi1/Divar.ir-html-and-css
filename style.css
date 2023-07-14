@@ -144,6 +144,11 @@ header a{
     padding-right: 15px;
 }
 
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
 aside h2{
     margin-top: 40px;
     margin-right: 50px;
@@ -160,6 +165,7 @@ aside ul{
 .category-img{
     width: 20px;
     margin-top: 10px;
+
 }
 
 .category-span{
@@ -186,4 +192,49 @@ aside ul{
 
 .down-sidebar span{
     font-size: 13px;
+}
+
+footer{
+    font-size: 0;
+    border-top: 1px solid rgba(113, 113, 113, 0.315);
+    margin-right: 50px;
+}
+
+.footer-navigation{
+    color: #777;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+    height: 40%;
+    box-sizing: border-box;
+    font-size: 12px; /* optional: reset font-size */
+    text-align: center; /* optional: center align the links */
+    vertical-align: top; /* optional: align links to the top */
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialmedia-icon{
+    width: 20px;
+    align-items: center;
+}
+
+.enemad{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.875rem
+}
+
+.enemad_box{
+    cursor: pointer;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+    width: 50px;
 }
