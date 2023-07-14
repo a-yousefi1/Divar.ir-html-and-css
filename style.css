@@ -143,3 +143,47 @@ header a{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+aside h2{
+    margin-top: 40px;
+    margin-right: 50px;
+    font-size: 12px;
+    color: #777;
+}
+
+aside ul{
+    margin-right: 50px;
+    list-style: none;
+
+}
+
+.category-img{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.category-span{
+    color: #777;
+}
+
+.down-sidebar{
+    margin-right: 50px;
+    margin-top: 25px;
+    width: 250px;
+
+}
+
+.down-sidebar div{
+    border-top: 1px solid rgba(113, 113, 113, 0.315);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.down-sidebar img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.down-sidebar span{
+    font-size: 13px;
+}
