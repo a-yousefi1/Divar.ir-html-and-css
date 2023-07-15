@@ -238,3 +238,73 @@ footer{
     text-align: center;
     width: 50px;
 }
+
+.main-title{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: left;
+    display: block;
+    color: rgba(0,0,0,.56);
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.main-grid-posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
+    row-gap: 16px;
+}
+
+.main-post{
+    max-width: 500px;
+    height: 184px;
+    padding: 8px;
+}
+
+.main-post-thumbnail img{
+    max-width: 136px;
+}
+
+article{
+    display: flex;
+}
+
+.main-post-detail{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.main-post-title{
+    color: rgba(0,0,0,.87);
+    font-size: 1rem;
+    font-weight: 500;
+    height: 56px;
+    line-height: 28px;
+    margin-bottom: auto;
+    margin-top: 0;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.main-post-price{
+    color: rgba(0,0,0,.56);
+    font-size: .875rem;
+    line-height: 24px;
+    min-width: 100%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 0;
+}
+
+.main-post-time{
+    align-items: center;
+    display: flex;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+}
