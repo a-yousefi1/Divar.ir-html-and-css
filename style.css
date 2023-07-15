@@ -13,10 +13,20 @@
 
 }
 
+.grid{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+
+
 header{
     border-bottom: 2px solid rgba(0,0,0,.12);
     margin-top: auto;
     margin-bottom: auto;
+    width: 100%;
+    align-items: center;
+    grid-column: 1 / -1;
 }
 
 nav, nav div{
@@ -144,10 +154,10 @@ header a{
     padding-right: 15px;
 }
 
-.main{
+/* .main{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 aside h2{
     margin-top: 40px;
