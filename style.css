@@ -39,6 +39,7 @@ header{
     width: 100%;
     align-items: center;
     grid-column: 1 / -1;
+    margin-bottom: 20px;
 }
 
 /*---------------*/
@@ -48,6 +49,9 @@ nav{
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+}
 
 .icon-header{
     width: 15px;
@@ -123,146 +127,14 @@ header hr{
 .logo .btn-header{
     font-size: 16px;
 }
-/* 
-nav, nav div{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-   
-}
-
-nav div > div{
-    flex: 1 0 70px;
-    justify-content:flex-start;
-}
-
-.header-organize{
-    justify-content: space-between;
-    gap: 60px;
-
-}
-
-.navbar-logo{
-    height: 48px;
-    width: 48px;
-    margin-left: 8px;
-    vertical-align: middle;
-    color: white;
-}
-
-header a{
-    color: white;
-}
-
-.header-vertical-line{
-    border-left: 2px solid rgba(0,0,0,.12);
-    height: 25px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
-}
-
-.header-button{
-    background: #fff;
-    border: 0px;
-    cursor: pointer;
-    display: flex;
-    flex: 1 0 70px;
-    padding-top: 20px;
-}
-
-.header-span{
-    color: rgba(0, 0, 0, 0.574);
-}
-
-.location-icon{
-    width: 20px;
-    vertical-align: middle;
-}
-
-.down-icon{
-    width: 10px;
-}
-
-.search-bar img{
-    width: 20px;
-    height: 20px;
-    margin-top: auto;
-    margin-right: 10px;
-    margin-bottom: auto;
-}
-
-.search-bar input{
-    border: 0px;
-    background: rgba(0, 0, 0, 0);
-    margin-right: 10px;
-    
-}
-
-.search-bar{
-    background: rgba(0,0,0,0.12);
-    height: 35px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 200px;
-    border-radius: 5px;
-}
-
-.user-icon{
-    width: 15px;
-    vertical-align: middle;
-}
-
-.chat-icon{
-    width: 15px;
-    vertical-align: middle;
-}
-
-.header-a{
-    width: 10px;
-}
-
-.new-advertising{
-    background: #9f2e2e;
-    border-radius: 5px;
-    border: 0px;
-    font-size: 15px;
-    padding: 7px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: auto;
-    margin-bottom: auto;
-    cursor: pointer;
-}
-
-.new-advertising span{
-    color: white;
-}
-
-.new-advertising:hover{
-    background: #BE3737;
-    border-radius: 5px;
-    border: 0px;
-    font-size: 15px;
-    padding: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-} */
-
-/* .main{
-    display: flex;
-    justify-content: space-between;
-} */
 
 aside h2{
     margin-top: 40px;
-    margin-right: 50px;
     font-size: 12px;
     color: #777;
 }
 
 aside ul{
-    margin-right: 50px;
     list-style: none;
 
 }
@@ -278,7 +150,6 @@ aside ul{
 }
 
 .down-sidebar{
-    margin-right: 50px;
     margin-top: 25px;
     width: 250px;
 
@@ -300,9 +171,8 @@ aside ul{
 }
 
 footer{
-    font-size: 0;
     border-top: 1px solid rgba(113, 113, 113, 0.315);
-    margin-right: 50px;
+    width: 250px;
 }
 
 .footer-navigation{
@@ -314,9 +184,9 @@ footer{
     display: inline-block;
     height: 40%;
     box-sizing: border-box;
-    font-size: 12px; /* optional: reset font-size */
-    text-align: center; /* optional: center align the links */
-    vertical-align: top; /* optional: align links to the top */
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .socialmedia{
